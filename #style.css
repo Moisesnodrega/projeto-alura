@@ -5,8 +5,8 @@ margin: 0px;
 }
 
 header {
-   bonder-bottom: solid 2px  rgb(236, 8, 8);
+   bonder-bottom: solid 2px  blue;
    padding: 20px;
    font-size:32px;
-   color:rgb(rgb(236, 7, 7), rgb(0, 0, 0),)
+   color:rgb(rgb(236, 7, 7),)
 }
