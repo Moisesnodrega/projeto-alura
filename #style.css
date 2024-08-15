@@ -8,5 +8,9 @@ header {
    bonder-bottom: solid 2px  blue;
    padding: 20px;
    font-size:32px;
-   color:rgb(rgb(236, 7, 7),)
+   color:rgb(rgb(255, 0, 0),)
+}
+
+section{
+    background: rgb(0, 34, 230);
 }
