@@ -1,15 +1,15 @@
 body {
-    color: black;
+    color: white;
     background: black ;
 margin: 0px;
 font-family:"Ballet" , sans-serif;
 }
 
 header {
-   border-bottom: solid 2px  blue;
+   border-bottom: solid 2px  rgb(15, 15, 236);
    padding: 20px;
    font-size:32px;
-   color:rgb(rgb(255, 0, 0));
+   color: rgb (255, 0, 0);
 }
 
 section{
