@@ -1,19 +1,19 @@
 body {
     color: white;
     background: black ;
-margin: 0px;
+margin: 10px;
 font-family:"Ballet" , sans-serif;
 }
 
 header {
-   border-bottom: solid 2px  rgb(15, 15, 236);
+   border-bottom: solid 2px  rgb(15, 15, 236) rgb(230, 35, 0);
    padding: 20px;
    font-size:32px;
-   color: rgb (255, 0, 0);
+   color: rgb(255, 0, 0) rgb(230, 0, 199);
 }
 
 section{
-    background: rgb(0, 34, 230);
+    background: rgb(0, 34, 230) rgb(255, 0, 0);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -28,16 +28,28 @@ h1{
 }
 
 p{
-    font: size 20px;
+    font-size: 20px;
 }
-.categoria-videos ing{
-opacity: 1,8;
+img{
 height: 200px;
 }
+.categoria {
+padding-left: 20px;
+padding-right: 20xp;
+}
+.categoria-videos{
+display: flex;
+overflow-x: auto;
+gap: 10xp;
+}
+.categoria-videos img{
+    opacity: 1.0;
+    height: 3px;
+}
 .chamada-video img:hover{
-opacity: 1,8;
+opacity: 1,0;
 border: 3px solid green;
 }
-.categoria h2{
+.categoria hz{
     color: rgb(209, 26, 26);
 }
