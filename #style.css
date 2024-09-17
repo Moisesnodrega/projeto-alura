@@ -3,17 +3,18 @@ body {
     background: black ;
 margin: 10px;
 font-family:"Ballet" , sans-serif;
+margin-bottom: 100px;
 }
 
 header {
-   border-bottom: solid 2px  rgb(15, 15, 236) rgb(230, 35, 0);
+   border-bottom: solid 2px  rgb(15, 15, 236);
    padding: 20px;
    font-size:32px;
-   color: rgb(255, 0, 0) rgb(230, 0, 199);
+   color: rgb(15, 15, 236);
 }
 
-section{
-    background: rgb(0, 34, 230) rgb(255, 0, 0);
+.chamada{
+    background: rgb(184,156,213);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -30,12 +31,10 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-height: 200px;
-}
 .categoria {
 padding-left: 20px;
 padding-right: 20xp;
+margin-top: 50px;
 }
 .categoria-videos{
 display: flex;
@@ -43,13 +42,13 @@ overflow-x: auto;
 gap: 10xp;
 }
 .categoria-videos img{
-    opacity: 1.0;
-    height: 3px;
+    opacity: 0.5;
+    height: 200px;
 }
 .chamada-video img:hover{
 opacity: 1,0;
 border: 3px solid green;
 }
-.categoria hz{
-    color: rgb(209, 26, 26);
+.categoria h2{
+    color: rgb(15, 15, 235);
 }
